@@ -1,0 +1,13 @@
+JavaScript Objects
+
+objects are variables too. But objects can contain many values.
+
+In JavaScript, almost "everything" is an object.
+
+Objects are objects
+Maths are objects
+Functions are objects
+Dates are objects
+Arrays are objects
+Maps are objects
+Sets are objects
