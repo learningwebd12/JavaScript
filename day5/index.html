@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 onclick="this.innerHTML='Hello guys'">Click Event</h1>
+    <h1 ></h1>
+    <h1 id="demo">fdf</h1>
+
+    <button onclick="checkCookies()">Hit Button</button>
+
+    <label for="">Enter your Name:</label>
+    <input type="text" id="fname" oninput="upperCase()">
+
+    <label >Enter last name</label>
+    <input type="text" id="lname" onchange="allCapital()">
+    
+    <div style="background-color: red; padding: 2vw;" onmouseover="mOver(this)" onmouseout="mOut(this)">asdf</div>
+
+   <p id="cord"></p>
+
+   <!-- javaScript event for form -->
+   <!-- focus()
+   blur()
+   input
+   change
+   select
+   submit
+   invalid -->
+
+<div class="form-box">
+    <form action="">
+        <label for="">Name:</label>
+        <input type="text" id="ffirst" onfocus="focusFunction(this)" onblur="blurFunction(this)"><br><br>
+        <label>Class:</label>
+        <input type="text" id="lsecond" onfocus="focusFunction(this)"onblur="blurFunction(this)"><br><br>
+        <!-- input event input ra textarea maa matra kaam garxa -->
+        <input type="email" id="email" placeholder="enter to see text in next page" oninput="inputFunction(this)">
+        <label >Country:</label>
+        <select name="" id="" onfocus="focusFunction(this)">
+            <option value="">India</option>
+            <option value="">Pakistan</option>
+            <option value="">Nepal</option>
+            <option value="">USA</option>
+            <option value="">Canada</option>
+        </select>
+           </form>
+</div>
+<div id="test" style="border: 1px solid red;"></div>
+    <script src="app.js"></script>
+</body>
+</html>
